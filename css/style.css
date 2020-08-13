@@ -1,0 +1,46 @@
+body{
+    color: white;
+}
+html{
+    scroll-behavior: smooth;
+}
+.navbar{
+    border-bottom: 3px solid #007acc;
+    opacity: 0.7;
+}
+#home{
+    background-image: url(../img/home.jpg);
+    min-height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.cont{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.row{
+    padding-top: 150px;
+}
+.fas{
+    background-color: white;
+    color: aqua;
+    padding: 4px;
+    font-size: 22px;
+    border-radius: 4px;
+    margin: 8px;
+}
+.inner{
+    background-color: rgba(0, 0, 0, 0.5);
+    min-height: 700px;
+}
+#explore-head{
+    background-color: #333;
+    padding: 30px;
+}
+#create-head, #share-head{
+    background-color: #007BFF;
+    padding: 30px;
+}
+#create-body{
+    background-color: #333;
+}
